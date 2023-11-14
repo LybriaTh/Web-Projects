@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(241, 219, 252);
+    font-family: 'Playfair Display', serif;
+}
+
+/*----------------------- barra de navegação --------------------*/
+header {
+
+    display: flex;
+    justify-content: center;
+}
+
+#navbar2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+#navbar2 img {
+    margin-top: 10px;
+    margin-right: 300px;
+    width: 300px;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 2000px;
+    border-radius: 10px;
+    background-color: rgb(210, 97, 255);
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    text-decoration: none;
+}
+
+.car {
+    margin-right: 30px;
+    margin-top: 25px;
+    height: 26px;
+    width: 85px;
+    color: rgb(176, 39, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: white;
+}
+
+.pagina {
+    margin-top: 25px;
+    height: 26px;
+    width: 115px;
+    color: rgb(176, 39, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: white;
+}
+
+
+.navbar img {
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+#barra_topo {
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#pesquisa {
+    margin-left: 20px;
+    height: 20px;
+    width: 200px;
+    padding: 2px;
+    color: rgb(176, 39, 255);
+    border-radius: 5px;
+    border-color: white;
+}
+
+button:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+button {
+    font-family: 'Playfair Display', serif;
+    height: 27px;
+    width: 80px;
+    color: rgb(176, 39, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: white;
+}
+
+/*----------------------------- banner --------------------------*/
+#banner {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------- apresentação dos produtos -----------------*/
+#quadros1 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#quadros2 {
+    margin-bottom: 150px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.produto {
+    font-family: 'Playfair Display', serif;
+    box-shadow: rgb(195, 139, 221) 6px 6px 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    width: 250px;
+    height: 250px;
+    border: solid 3px rgb(226, 135, 253);
+}
+
+.produto img {
+    border: solid 3px rgb(226, 135, 253);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.preco {
+
+    color: rgb(139, 16, 255);
+}
+
+.produto a {
+    text-decoration: none;
+    color: rgb(139, 16, 255);
+}
+
+.botao_c {
+    height: 35px;
+    width: 70px;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(208, 128, 255);
+    border-radius: 9px;
+    border-color: white;
+}
+
+#botoes {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.botao_a:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+
+}
+
+.botao_c:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.botao_c:hover {
+    background-color: rgb(172, 84, 255);
+}
+
+.botao_a:hover {
+    background-color: rgb(250, 120, 250);
+}
+
+.botao_a {
+    height: 35px;
+    width: 35px;
+    color: white;
+    background-color: rgb(255, 160, 235);
+    padding-left: 3px;
+    border-radius: 10px;
+}
+
+.gg-shopping-cart {
+    margin-left: 3px;
+}
+
+/*---------------------- rodape do site -----------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#pai_sub {
+    display: flex;
+    justify-content: center;
+}
+
+#sub {
+    width: 2000px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 97, 255);
+    height: 250px;
+
+}
+
+.contato {
+    color: white;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.atendimento {
+    color: white;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.social {
+    color: white;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 100px;
+    padding-left: 20px;
+}
+
+.horario {
+
+    color: white;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+
+.atalhos {
+
+    color: white;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+.atalhos a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+#redes {
+    display: flex;
+    justify-self: start;
+}
+
+.icon {
+    margin-right: 0px;
+    display: flex;
+    justify-self: start;
+}
+
+#rodape {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 2000px;
+    background-color: rgb(210, 97, 255);
+    overflow: hidden;
+
+}
+
+#pai_cont {
+    display: flex;
+    justify-content: center;
+}
+
+#cont {
+    width: 2000px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 97, 255);
+    height: 250px;
+}
+
+.seguranca,
+.pagamento {
+    color: white;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(211, 146, 255);
+    overflow: hidden;
+    padding-top: 40px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.seguranca img {
+    padding: 15px;
+    width: 130px;
+    height: 80px;
+}
+
+#img_r {
+    margin-top: 20px;
+}
+
+/*------------------------------Login cliente-----------------*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login,
+.cadastro {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    color: rgb(138, 82, 190);
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgb(169, 51, 224) 6px 6px 10px;
+    width: 350px;
+    height: 315px;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.cadastro {
+    margin-left: 20px;
+    width: 350px;
+    height: 650px;
+}
+
+
+
+/*-----------------Estilos para formulários------------------ */
+
+.botao_form:hover {
+    background-color: rgb(250, 120, 250);
+}
+
+.botao_form {
+    height: 35px;
+    width: 75px;
+    color: white;
+    background-color: rgb(255, 160, 235);
+    padding-left: 3px;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.lab_cad {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inp_cad {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px rgb(226, 135, 253);
+    border-radius: 5px;
+    width: 300px;
+}
+
+/*---------------------pagina do produto-----------------------*/
+
+#pai-prod{
+    display: flex;
+    justify-content: center;
+    
+}
+.prod{
+    width: 1500px;
+    height: 350px;
+    border: solid 5px rgb(59, 0, 77);
+    background-color: #e6a7ff;
+    box-shadow: #6a0094;
+   
+}
+.img
+
+
+
+
+
+
+/*--------------------------carrinho---------------------------*/
+
+.prod {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+}
+
+.prod img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#pai-car {
+    display: flex;
+    justify-content: center;
+
+}
+
+#car-itens {
+    box-shadow: rgb(202, 67, 214) 6px 6px 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(211, 146, 255);
+    border-radius: 10px;
+    width: 850px;
+    height: 800px;
+    padding-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+
+}
+
+.info {
+    color: #933eb4;
+    margin-left: 30px;
+    text-align: left;
+    margin-right: 200px;
+}
+
+.car-item {
+    font-family: 'Playfair Display', serif;
+    box-shadow: rgb(130, 28, 139) 6px 6px 10px;
+    border: solid 80px rgb(226, 135, 253);
+    background-color: rgb(241, 219, 252);
+    display: flex;
+    align-items: center;
+    border: 2px solid #b700ff;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin-top: 80px;
+    width: 750px;
+    height: 140px;
+
+}
+
+.car-item img {
+    border: 2px solid #b700ff;
+    border-radius: 10px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+.remove-link button:hover {
+    background-color: rgb(222, 90, 255);
+}
+
+.remove-link button {
+    width: 90px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(208, 128, 255);
+
+}
+
+#resumo {
+    display: flex;
+    box-shadow: rgb(202, 67, 214) 6px 6px 10px;
+    background-color: rgb(211, 146, 255);
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    margin-left: 30px;
+    margin-top: 70px;
+
+}
+
+#preco {
+
+    color: rgb(100, 0, 139);
+    text-align: right;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+#resumo-1 {
+    color: #933eb4;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.total {
+    margin-left: 25px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+#cupom {
+    color: #933eb4;
+    ;
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+#but_total:hover {
+    background-color: rgb(222, 90, 255);
+}
+
+#but_total {
+    font-size: large;
+    height: 35px;
+    width: 300px;
+    color: #6a0094;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10prgb(255, 255, 255)
+}
+
+/*-------------------------Sobre--------------------------------*/
+
+#pai-sobre {
+    display: flex;
+    justify-content: center;
+}
+
+#sobre {
+    text-align: justify;
+    color: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(210, 97, 255);
+}
+
+#sobrep {
+    padding-left: 50px;
+    margin-bottom: 50px;
+    width: 1350px;
+
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+}
+
+.sub_sobre {
+    text-align: justify;
+    background-color: rgb(190, 63, 248);
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    width: 500px;
+    height: 200px;
+}
+
+.desen {
+    display: flex;
+    justify-content: center;
+}
+
+.desen img{
+   
+    margin-top: 120px;
+}
+
+.sub_desen {
+    padding: 30px;
+    margin-top: 30px;
+    width: 500px;
+    height: 200px;
+}
