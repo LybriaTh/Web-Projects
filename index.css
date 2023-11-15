@@ -510,7 +510,7 @@ form {
     background-color: rgb(211, 146, 255);
     border-radius: 10px;
     width: 850px;
-    height: 800px;
+    height: 650px;
     padding-left: 30px;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -534,7 +534,7 @@ form {
     border: 2px solid #ae5cfa;
     border-radius: 10px;
     padding-left: 30px;
-    margin-top: 80px;
+    margin-top: 40px;
     width: 750px;
     height: 140px;
 
@@ -566,7 +566,7 @@ form {
     background-color: rgb(211, 146, 255);
     border-radius: 10px;
     width: 400px;
-    height: 250px;
+    height: 360px;
     margin-left: 30px;
     margin-top: 70px;
 
@@ -614,6 +614,18 @@ form {
     border-radius: 10px;
     background-color: rgb(168, 61, 255);
     border-radius: 10prgb(255, 255, 255)
+}
+/*------------------------Finalizar pedido-----------------------*/
+#resumo-final {
+    display: flex;
+    box-shadow: rgb(175, 2, 255) 6px 6px 10px;
+    background-color: rgb(211, 146, 255);
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 70px;
+
 }
 
 /*-------------------------Sobre--------------------------------*/
