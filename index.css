@@ -457,9 +457,9 @@ form {
 }
 
 #car-itens {
-    box-shadow: rgb(202, 67, 214) 6px 6px 10px;
+    box-shadow: rgb(175, 2, 255) 6px 6px 10px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #7026c5;
     background-color: rgb(211, 146, 255);
     border-radius: 10px;
     width: 850px;
@@ -472,7 +472,7 @@ form {
 }
 
 .info {
-    color: #933eb4;
+    color: #7026c5;
     margin-left: 30px;
     text-align: left;
     margin-right: 200px;
@@ -480,12 +480,11 @@ form {
 
 .car-item {
     font-family: 'Playfair Display', serif;
-    box-shadow: rgb(130, 28, 139) 6px 6px 10px;
-    border: solid 80px rgb(226, 135, 253);
+    box-shadow: rgb(175, 2, 255) 6px 6px 10px;
     background-color: rgb(241, 219, 252);
     display: flex;
     align-items: center;
-    border: 2px solid #b700ff;
+    border: 2px solid #ae5cfa;
     border-radius: 10px;
     padding-left: 30px;
     margin-top: 80px;
@@ -495,7 +494,7 @@ form {
 }
 
 .car-item img {
-    border: 2px solid #b700ff;
+    border: 2px solid #ae5cfa;
     border-radius: 10px;
     max-width: 200px;
     max-height: 250px;
@@ -510,13 +509,13 @@ form {
     height: 40px;
     color: rgb(255, 255, 255);
     border-radius: 10px;
-    background-color: rgb(208, 128, 255);
+    background-color: rgb(168, 61, 255);
 
 }
 
 #resumo {
     display: flex;
-    box-shadow: rgb(202, 67, 214) 6px 6px 10px;
+    box-shadow: rgb(175, 2, 255) 6px 6px 10px;
     background-color: rgb(211, 146, 255);
     border-radius: 10px;
     width: 400px;
@@ -528,14 +527,14 @@ form {
 
 #preco {
 
-    color: rgb(100, 0, 139);
+    color: rgb(154, 71, 231);
     text-align: right;
     margin-top: 80px;
     margin-left: 60px;
 }
 
 #resumo-1 {
-    color: #933eb4;
+    color: #7026c5;
     padding-top: 30px;
     padding-left: 30px;
 }
@@ -549,8 +548,7 @@ form {
 }
 
 #cupom {
-    color: #933eb4;
-    ;
+    color: #7026c5;
     text-align: center;
     margin-top: 10px;
     width: 300px;
@@ -565,9 +563,9 @@ form {
     font-size: large;
     height: 35px;
     width: 300px;
-    color: #6a0094;
+    color: #ffffff;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(168, 61, 255);
     border-radius: 10prgb(255, 255, 255)
 }
 
