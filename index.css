@@ -610,10 +610,12 @@ form {
     border-radius: 10prgb(255, 255, 255)
 }
 /*------------------------Finalizar pedido-----------------------*/
+
 #pai-final{
     display: flex;
     justify-content: center;
 }
+
 #pedido {
     box-shadow: rgb(175, 2, 255) 6px 6px 10px;
     text-align: center;
@@ -643,6 +645,30 @@ form {
     height: 140px;
 }
 
+#endereco{
+    box-shadow: rgb(175, 2, 255) 6px 6px 10px;
+    text-align: justify;
+    color: #7026c5;
+    background-color: rgb(211, 146, 255);
+    border-radius: 10px;
+    width: 830px;
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+#end{
+    color: #f7f7f7;
+}
+
+#pai-cupom{
+    margin-top: 30px;
+}
+
 #resumo-final {
     display: flex;
     box-shadow: rgb(175, 2, 255) 6px 6px 10px;
@@ -661,7 +687,6 @@ form {
     margin-left: 60px;
 }
 
-
 #preco-final {
     color: #7026c5;
     padding-top: 30px;
@@ -673,6 +698,21 @@ form {
     padding: 10px;
     width: 100px;
     height: 100px;
+}
+
+#pai-pagamento{
+
+    box-shadow: rgb(175, 2, 255) 6px 6px 10px;
+    background-color: rgb(211, 146, 255);
+    border-radius: 10px;
+    width: 400px;
+    height: 240px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+#pagamento{
+color: #7026c5;
 }
 
 /*-------------------------Sobre--------------------------------*/
