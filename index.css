@@ -609,9 +609,10 @@ form {
     background-color: rgb(168, 61, 255);
     border-radius: 10prgb(255, 255, 255)
 }
+
 /*------------------------Finalizar pedido-----------------------*/
 
-#pai-final{
+#pai-final {
     display: flex;
     justify-content: center;
 }
@@ -631,7 +632,8 @@ form {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.car-item-fim{
+
+.car-item-fim {
     font-family: 'Playfair Display', serif;
     box-shadow: rgb(175, 2, 255) 6px 6px 10px;
     background-color: rgb(241, 219, 252);
@@ -645,7 +647,7 @@ form {
     height: 140px;
 }
 
-#endereco{
+#endereco {
     box-shadow: rgb(175, 2, 255) 6px 6px 10px;
     text-align: justify;
     color: #7026c5;
@@ -661,11 +663,12 @@ form {
     margin-bottom: 40px;
     margin-left: 20px;
 }
-#end{
+
+#end {
     color: #f7f7f7;
 }
 
-#pai-cupom{
+#pai-cupom {
     margin-top: 30px;
 }
 
@@ -680,7 +683,7 @@ form {
     margin-top: 70px;
 }
 
-#total-final{
+#total-final {
     color: rgb(154, 71, 231);
     text-align: right;
     margin-top: 80px;
@@ -700,7 +703,7 @@ form {
     height: 100px;
 }
 
-#pai-pagamento{
+#pai-pagamento {
 
     box-shadow: rgb(175, 2, 255) 6px 6px 10px;
     background-color: rgb(211, 146, 255);
@@ -711,8 +714,16 @@ form {
     margin-top: 70px;
 }
 
-#pagamento{
-color: #7026c5;
+#pagamento {
+    color: #7026c5;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#but-pedido{
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 80px;
 }
 
 /*-------------------------Sobre--------------------------------*/
