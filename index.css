@@ -381,9 +381,6 @@ main {
 }
 
 
-
-/*-----------------Estilos para formulários------------------ */
-
 .botao_form:hover {
     background-color: rgb(250, 120, 250);
 }
@@ -395,6 +392,7 @@ main {
     background-color: rgb(255, 160, 235);
     padding-left: 3px;
     border-radius: 10px;
+    border: white;
 }
 
 form {
@@ -414,7 +412,7 @@ form {
     width: 300px;
 }
 
-/*---------------------pagina do produto 1 -----------------------*/
+/*---------------------pagina dos produtos -----------------------*/
 
 #pai-prod {
     margin-top: 80px;
@@ -720,7 +718,7 @@ form {
     padding-top: 30px;
 }
 
-#but-pedido{
+#but-pedido {
     width: 200px;
     border-radius: 10px;
     margin-left: 80px;
@@ -786,3 +784,122 @@ form {
     width: 500px;
     height: 200px;
 }
+
+/*----------------------- pagina do adm ----------------------------*/
+
+#pai-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pai-cad {
+    width: 1300px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+}
+
+#cad {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    color: rgb(138, 82, 190);
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgb(169, 51, 224) 6px 6px 10px;
+}
+
+#nav-bar {
+    margin-top: 90px;
+    padding: 30px 20px 30px 20px;
+    color: white;
+    width: 200px;
+    height: 300px;
+    margin-right: 70px;
+    border-radius: 10px;
+    box-shadow: rgb(179, 17, 255) 6px 6px 10px;
+    background-color: rgb(223, 143, 255);
+}
+
+#nav-bar h2 {
+    color: rgb(138, 82, 190);
+}
+#nav-bar a{
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.botao-cad:hover {
+    background-color: rgb(250, 120, 250);
+}
+
+.botao-cad {
+    height: 35px;
+    width: 75px;
+    color: white;
+    background-color: rgb(255, 160, 235);
+    padding-left: 3px;
+    border-radius: 10px;
+    border: #ffffff;
+}
+
+/*-------------------- todos produtos cadastrados ---------------------*/
+
+#prod-cad {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 900px;
+    height: 600px;
+    color: rgb(138, 82, 190);
+    background-color: #fdfdfd;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    box-shadow: rgb(169, 51, 224) 6px 6px 10px
+
+}
+
+.cad-item {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(241, 219, 252);
+    display: flex;
+    align-items: center;
+    border: 2px solid #ae5cfa;
+    border-radius: 10px;
+    padding-left: 30px;
+    width: 800px;
+    height: 130px;
+}
+
+.remove:hover {
+    background-color: rgb(126, 40, 184);
+}
+
+.remove {
+    height: 35px;
+    width: 75px;
+    color: white;
+    background-color: rgb(175, 61, 252);
+    margin-right: 30px;
+    padding-left: 3px;
+    border-radius: 10px;
+    border: #ffffff;
+}
+
+
+.edita:hover {
+    background-color: rgb(250, 120, 250);
+}
+
+.edita {
+    height: 35px;
+    width: 75px;
+    color: white;
+    background-color: rgb(255, 160, 235);
+    padding-left: 3px;
+    border-radius: 10px;
+    border: #ffffff;
+}
+

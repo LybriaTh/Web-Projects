@@ -17,11 +17,11 @@
 
     <link rel="stylesheet" href="index.css">
 
-    <title>Cadastro de produtos</title>
+    <title>Produtos cadastrados</title>
+
 </head>
 
 <body>
-
 
     <header>
         <div class="navbar">
@@ -49,8 +49,6 @@
     </div>
 
 
-
-
     <div id="pai-cadastro">
 
         <div id="pai-cad">
@@ -67,31 +65,25 @@
                 <p>Relatório 3</p>
 
             </div>
-            <div id="cad">
+            <div id="prod-cad">
 
-                <h2>Cadastro de Produto</h2><br>
-                <form action="processar_cadastro.php" method="post" enctype="multipart/form-data">
-                    <label class="lab_cad" for="nome_produto">Nome do Produto:</label>
-                    <input class="inp_cad" type="text" name="nome_produto" required>
+                <h2>produtos cadastrados </h2><br><br>
 
-                    <label class="lab_cad" for="categoria">Categoria:</label>
-                    <input class="inp_cad" type="text" name="categoria" required>
+                <div class="cad-item">
+                    <img  class="img-carrinho" src="1.png" alt="Vela de Baunilha">
+                    <div class="info">
+                        <h2>Nome: Vela de Baunilha</h2>
+                        <h3>Preço: R$ 50.00</h3>
+                        <h3>estoque: 10</h3>
+                    </div>
+                    <button class="remove">Remover</button>
+                    <button class="edita">Editar</button>
+                </div>
 
-                    <label class="lab_cad" for="preco">Preço</label>
-                    <input class="inp_cad" type="number" name="preco" required>
-
-                    <label class="lab_cad" for="ficha">Ficha técnica:</label>
-                    <textarea class="inp_cad" name="mensagem" id="mens" cols="30" rows="10"></textarea><br>
-
-
-
-                    <label class="lab_cad" for="imagem">Upload da imagem do Produto:</label>
-                    <input class="inp_cad" type="file" name="imagem" accept="image/*" required><br><br>
-
-                    <input class="botao-cad" type="submit" value="Cadastrar">
-                </form>
             </div>
         </div>
+
+
     </div>
 
 
@@ -103,6 +95,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
