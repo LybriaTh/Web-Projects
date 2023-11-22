@@ -869,6 +869,7 @@ form {
     border: 2px solid #ae5cfa;
     border-radius: 10px;
     padding-left: 30px;
+    margin-bottom: 30px;
     width: 800px;
     height: 130px;
 }
